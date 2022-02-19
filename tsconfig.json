@@ -1,0 +1,16 @@
+﻿{
+  "compileOnSave": true,
+  "compilerOptions": {
+    "forceConsistentCasingInFileNames": true,
+    "lib": [ "es2017" ],
+    "module": "commonjs",
+    "noEmitOnError": true,
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "removeComments": false,
+    "sourceMap": false,
+    "strict": true,
+    "target": "es5"
+  }
+}

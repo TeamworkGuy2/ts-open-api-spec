@@ -1,0 +1,25 @@
+{
+  "name": "@twg2/ts-open-api-spec",
+  "version": "0.1.0",
+  "description": "TypeScript Open API & RAML specifications and helpers",
+  "author": "TeamworkGuy2",
+  "homepage": "https://github.com/TeamworkGuy2/ts-open-api-spec",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TeamworkGuy2/ts-open-api-spec.git"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@types/chai": "~4.2.4",
+    "@types/mocha": "~5.2.7",
+    "@types/node": "^12.0.0",
+    "chai": "~4.2.0",
+    "mocha": "~5.2.0",
+    "typescript": "~4.4.4"
+  },
+  "scripts": {
+    "test": "node node_modules/mocha/bin/_mocha -u tdd --recursive",
+    "tsc": "node node_modules/typescript/bin/tsc"
+  }
+}
